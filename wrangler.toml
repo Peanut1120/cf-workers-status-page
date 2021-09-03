@@ -1,6 +1,6 @@
 name = "cf-workers-status-page"
 workers_dev = true
-account_id = ""
+account_id = "2e546786c72e275f68e47b5d48ac5051"
 type = "webpack"
 webpack_config = "node_modules/flareact/webpack"
 
@@ -12,7 +12,7 @@ bucket = "out"
 entry-point = "./"
 
 # uncomment and adjust following if you are not using GitHub Actions
-[env.production]
-kv-namespaces = [{binding="KV_STATUS_PAGE", id="ac7e491b40634f76ac30aa48bd145b51", preview_id=""}]
+#[env.production]
+#kv-namespaces = [{binding="KV_STATUS_PAGE", id="ac7e491b40634f76ac30aa48bd145b51", preview_id=""}]
 #zone_id="xxx"
 #route="xxx"
